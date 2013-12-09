@@ -24,7 +24,7 @@ Test-Run
 * Configure dtd folder path and root element in dtd2xml.ini
 * Be sure that DTD source consists only of ASCII chars
 * Execute dtd2xml.exe
-* Investigate result files wich have filenames like so <root_elem_name>_<language>.xml
+* Investigate result files wich have filenames like so &lt;root_elem_name&gt;_&lt;language&gt;.xml
 
 
 License
