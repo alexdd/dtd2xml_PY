@@ -1,7 +1,7 @@
 dtd2xml_PY
 =================
 
-dtd2xml.py generates from a given input DTD usable random XML test data. 
+dtd2xml.py generates usable random XML test data out of a given input DTD. 
 Element occurences, test text parts, language and randomness can 
 be configured in dtd2xml.ini. DTD must consist only of ASCII chars.
 
