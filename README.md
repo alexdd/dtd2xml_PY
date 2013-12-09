@@ -5,6 +5,17 @@ dtd2xml.py generates from a given input DTD usable random XML test data.
 Element occurences, test text parts, language and randomness can 
 be configured in dtd2xml.ini. DTD must consist only of ASCII chars.
 
+Algorithm
+-----------
+
+Steps:
+
+1. Parse DTD as a dictionary with (element,child) key-value-tuples.
+2. According to multiplicity of elements and parameters in dtd2xml.ini clone and shuffle elements
+3. Also save attributes of elements in dictonary
+4. Walk town the graph which is in the first dictonary depth first and write attributes and element tags 
+
+
 Options
 -------------
 							
