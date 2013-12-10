@@ -27,6 +27,7 @@ Prerequisites
 
 * Windows for executing precompiled binary
 * or alternatively Python 2.4 installed on your machine for executing source script
+* if you want to use the binary you will also need MSVCR71.dll put into the dist folder (this dll is copyrighted)
 
 
 Test-Run
